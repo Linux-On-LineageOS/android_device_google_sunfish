@@ -683,3 +683,4 @@ PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SM7150
 
 # Update soong config namespace
 -include vendor/google/build/soong/soong_config_namespace/qcril_oemhook.mk
+$(call inherit-product, vendor/lindroid/lindroid.mk)
